@@ -15,7 +15,7 @@ const Home: FC = () => {
   };
 
   return (
-    <div className="container w-full px-4 mx-auto">
+    <div className="container w-full px-4 mx-auto ">
       <Header />
       <SearchInput onSearch={handleSearch} />
       <YoutubeTumbnail ytSrc={url} />

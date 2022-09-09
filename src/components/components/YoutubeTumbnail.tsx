@@ -13,7 +13,7 @@ const YoutubeTumbnail: FC<Props> = ({ ytSrc }) => {
         "pb-16"
       )}
     >
-      <div className="relative flex items-center justify-center w-full h-full overflow-hidden md:w-2/3 youtube-thumbnail-container rounded-3xl md:h-[560px]">
+      <div className="relative flex items-center justify-center w-[80%] h-full overflow-hidden lg:w-2/3 youtube-thumbnail-container rounded-3xl lg:h-[560px]">
         <img
           src={ytSrc}
           alt="YouTube Thumbnail"

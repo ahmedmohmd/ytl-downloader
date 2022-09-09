@@ -10,9 +10,9 @@ const Header = () => {
   return (
     <div className="w-full py-16 lg:py-20">
       <div className="flex flex-col items-center justify-evenly lg:justify-between w-full min-h-[calc(100vh-300px)] lg:mb-0 sm:mb-10 lg:flex-row">
-        <div className="mb-16 lg:mb-0 lg:max-w-lg lg:pr-5">
+        <div className="mb-8 lg:mb-0 lg:max-w-lg lg:pr-5">
           <div className="max-w-xl mb-1">
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold !leading-[1.3] tracking-tight text-gray-900 sm:text-4xl lg:text-7xl ">
+            <h2 className="text-center xl:text-start max-w-lg mb-6 font-sans text-4xl font-bold !leading-[1.3] tracking-tight text-gray-900 sm:text-5xl xl:text-7xl ">
               Get{" "}
               <span className="px-3 text-white bg-red-500/90 rounded-xl">
                 YouTube
@@ -24,14 +24,14 @@ const Header = () => {
               <br />
               And For Free
             </h2>
-            <p className="text-base text-gray-700 md:text-lg">
+            <p className="text-base text-center text-gray-600 xl:text-start lg:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae. explicabo.
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-center lg:w-1/2 ">
+        <div className="flex items-center justify-center w-[90%] sm:w-[50%]  lg:w-[40%] xl:w-1/2">
           <img
             className="object-cover"
             src="/assets/images/youtube-media.png"
