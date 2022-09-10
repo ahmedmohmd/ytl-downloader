@@ -4,6 +4,7 @@ import NavBar from "./components/common/NavBar";
 import { Routes, Route } from "react-router-dom";
 import About from "./components/pages/About";
 import Home from "./components/pages/Home";
+import Footer from "./components/common/Footer";
 
 //* App Component
 const App: FC = () => {
@@ -15,6 +16,8 @@ const App: FC = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 };

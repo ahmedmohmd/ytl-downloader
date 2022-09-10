@@ -5,9 +5,9 @@ import constants from "../../../utils/tokens/contansts";
 //* Tetsing Code
 describe("Test Validate YouTube Funcion", () => {
   const InValidYoutubeURLs: string[] = [
-    "https://www.youtube.com",
-    "https://www.youte.com/watch?v=n_xbCcXQeqY",
-    "https://.youtube.com/watch?v=n_xbCcXQeqY",
+    "https://www.youtu",
+    "https://wwe.com/watch?v=n_xbCcXQeqY",
+    "https://.yoube.com/watch?v=n_xbCcXQeqY",
   ];
 
   it("Should Return True if YouTube URL is Valid", () => {
