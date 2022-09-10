@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @import url("https://fonts.googleapis.com/css2?family=Capriola&family=DynaPuff:wght@400;600;700&family=Jua&display=swap");
+}
+
 .active {
   background-color: white;
   color: #e45256;
@@ -14,4 +18,8 @@
 
 .youtube-thumbnail-container:hover .youtube-thumbnail {
   transform: scale(1.15) rotate(-3deg);
+}
+
+.youtube-thumbnail-container:hover .download-button {
+  right: 0.75rem;
 }

@@ -1,7 +1,8 @@
-import clsx from "clsx";
+//* Imports
 import { FC } from "react";
 import { Link, NavLink } from "react-router-dom";
 
+//* NavBar Component
 const NavBar: FC = () => {
   return (
     <div className={"navbar bg-red-500/90 duration-100 shadow-md w-full "}>
@@ -20,7 +21,9 @@ const NavBar: FC = () => {
                 className="w-10 h-10"
                 alt="Website Logo"
               />
-              <span className="text-xl font-bold text-white w-36">YT</span>
+              <span className="text-xl font-bold text-white w-52">
+                YT Downloader
+              </span>
             </Link>
             <div className="sm:hidden">
               <button
@@ -78,12 +81,12 @@ const NavBar: FC = () => {
               <a
                 href="https://github.com/ahmedmohmd/web-guider/tree/main"
                 target="_blank"
-                className="flex items-center justify-center pt-3 border-t-2 sm:pt-0 sm:pl-3 sm:border-l-2 sm:border-t-0 border-slate-200/50"
+                className="flex items-center justify-center pt-3 border-t-2 project-link sm:pt-0 sm:pl-3 sm:border-l-2 sm:border-t-0 border-slate-200/50"
               >
                 <div className="p-3 duration-300 rounded-full hover:bg-red-400/90">
                   <img
                     src="/assets/images/github-icon.svg"
-                    className={clsx("fil")}
+                    className="fil"
                     alt=""
                   />
                 </div>

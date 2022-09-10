@@ -1,4 +1,8 @@
-const Header = () => {
+//* Imports
+import { FC } from "react";
+
+//* Header Component
+const Header: FC = () => {
   const handleScroll = () => {
     window.scroll({
       left: 0,
@@ -10,9 +14,9 @@ const Header = () => {
   return (
     <div className="w-full py-16 lg:py-20">
       <div className="flex flex-col items-center justify-evenly lg:justify-between w-full min-h-[calc(100vh-300px)] lg:mb-0 sm:mb-10 lg:flex-row">
-        <div className="mb-8 lg:mb-0 lg:max-w-lg lg:pr-5">
+        <div className="mb-6 lg:mb-0 lg:max-w-lg lg:pr-5">
           <div className="max-w-xl mb-1">
-            <h2 className="text-center xl:text-start max-w-lg mb-6 font-sans text-4xl font-bold !leading-[1.3] tracking-tight text-gray-900 sm:text-5xl xl:text-7xl ">
+            <h2 className="text-center xl:text-start max-w-lg mb-4 font-sans text-4xl font-bold !leading-[1.3] tracking-tight text-gray-900 sm:text-5xl xl:text-7xl ">
               Get{" "}
               <span className="px-3 text-white bg-red-500/90 rounded-xl">
                 YouTube
@@ -22,12 +26,21 @@ const Header = () => {
               </span>{" "}
               Now
               <br />
-              And For Free
+              And For{" "}
+              <span className="px-4 text-white bg-green-500/90 rounded-2xl">
+                Free!
+              </span>{" "}
             </h2>
-            <p className="text-base text-center text-gray-600 xl:text-start lg:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae. explicabo.
+            <p className="text-base text-center text-gray-600 xl:text-start lg:text-lg !leading-[2]">
+              YT Downloader is a Website Which Let You to Download{" "}
+              <span className="text-sm inline-flex items-center gap-1.5 py-1.5 px-3 rounded-full  font-medium bg-yellow-100 text-yellow-800">
+                Youtube Thumbnail
+              </span>{" "}
+              With High Quality and Completly{" "}
+              <span className="inline-flex items-center text-sm gap-1.5 py-1.5 px-3 rounded-full  font-medium bg-emerald-100 text-emerald-800">
+                Free
+              </span>
+              .
             </p>
           </div>
         </div>
