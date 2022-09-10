@@ -23,3 +23,7 @@
 .youtube-thumbnail-container:hover .download-button {
   right: 0.75rem;
 }
+
+* {
+  outline: none;
+}
