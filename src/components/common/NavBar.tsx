@@ -79,7 +79,7 @@ const NavBar: FC = () => {
               </NavLink>
 
               <a
-                href="https://github.com/ahmedmohmd/web-guider/tree/main"
+                href="https://github.com/ahmedmohmd/ytl-downloader"
                 target="_blank"
                 className="flex items-center justify-center pt-3 border-t-2 project-link sm:pt-0 sm:pl-3 sm:border-l-2 sm:border-t-0 border-slate-200/50"
               >

@@ -5,7 +5,7 @@ import { FC } from "react";
 //* Footer JSX
 const Footer: FC = () => {
   return (
-    <footer className="text-gray-600 bg-gray-100 body-font">
+    <footer className="w-full text-gray-600 bg-gray-100 body-font">
       <div className="container flex flex-col items-center px-4 py-6 mx-auto sm:flex-row">
         <a
           href="#"

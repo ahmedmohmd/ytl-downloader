@@ -9,7 +9,7 @@ import Footer from "./components/common/Footer";
 //* App Component
 const App: FC = () => {
   return (
-    <div className="min-h-screen min-w-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen min-w-screen ">
       <NavBar />
 
       <Routes>
