@@ -41,7 +41,7 @@ const YoutubeTumbnail: FC<Props> = ({ ytSrc }) => {
         {ytSrc === "https://wallpapercave.com/dwp1x/wp3269246.jpg" ? null : (
           <button
             type="button"
-            className="absolute inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 bg-red-500 border border-transparent rounded-2xl download-button -right-32 top-3 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
+            className="absolute inline-flex items-center justify-center gap-2 px-4 py-3 text-sm font-semibold text-white transition-all duration-300 bg-red-500 border border-transparent rounded-2xl download-button -right-32 top-3 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
             onClick={handleCopy}
           >
             {copy}

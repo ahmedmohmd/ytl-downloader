@@ -51,12 +51,12 @@ const SearchInput: FC<Props> = ({ onSearch }) => {
           onFocus={() => setPlaceholder("")}
           onBlur={() => setPlaceholder("Enter Youtube's Video URL...")}
           onChange={handleChange}
-          className="block w-full lg:w-1/2 px-6 py-4 border-2 border-gray-200 rounded-full outline-none font-['Capriola'] truncate placeholder:text-gray-300 text-red-500/90 text-md focus:border-red-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400"
+          className="block w-full lg:w-1/2 px-6 py-4 border-2 border-gray-200 rounded-full outline-none font-['Capriola'] truncate placeholder:text-gray-300 text-red-500/90 text-md focus:border-red-500 focus:ring-blue-500"
         />
 
         <button
           type="submit"
-          className="inline-flex items-center justify-center w-1/2 gap-2 py-3 font-semibold text-white transition-all bg-red-500 border border-transparent rounded-full text-md lg:px-6 lg:py-4 lg:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800"
+          className="inline-flex items-center justify-center w-1/2 gap-2 py-3 font-semibold text-white transition-all bg-red-500 border border-transparent rounded-full text-md lg:px-6 lg:py-4 lg:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
         >
           Get
         </button>
