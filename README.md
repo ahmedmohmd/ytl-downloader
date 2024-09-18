@@ -1,50 +1,56 @@
 # Web Guider
 
-This is the Source Code [**YT Downloader**](https://y-t-downloader.vercel.app/) Website.
+## 🚀 Brief Overview
 
----
+YT Downloader is a sleek and user-friendly web application that allows you to download high-quality YouTube thumbnails quickly and for free. Built with React.js, TypeScript, HTML, CSS, and Tailwind CSS, this app offers a seamless, responsive design that ensures a great experience across all devices. With optimized speed and performance, it delivers fast results while maintaining a modern and minimalistic look. Enhanced by a range of powerful extensions and packages, YT Downloader also includes testing features to ensure reliability, making it the perfect tool for hassle-free thumbnail downloads.
 
-# Discreption
+## ✨ Key Features
 
-[**YT Downloader**] Website is an Website that Let You to Download YouTube Thumbnail with High Quality and Completely Free.
+1. Responsive Design
+2. Awesome Design thanks to **tailwind** and **Preline UI**.
+3. Nice perfomance.
 
----
+## 🛠️ Tech Stack
 
-# App Features
+- React.js
+- TailwindCSS
+- TypeScript
+- React Router
+- Preline UI
 
-- Reponsive
-- Nice Design with Tailwind Framework
-- Speed & Good Performance
-- A lot of Extensions and Packages
-- Testing Feature
+## 🔧 Install Instructions
 
----
+1. Clone the repo
 
-# Languages & Technologies
+```bash
+    git clone https://github.com/ahmedmohmd/ytl-downloader.git
 
-### Lauages That used in this Web App:
+```
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=ar"><img src="https://img.icons8.com/color/48/000000/css3.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://www.javascript.com/"><img src="https://img.icons8.com/color/48/000000/javascript--v2.png" width="48" height="48"/></a>
-</div>
+2. Install dependencies
 
-### Technolohies that used in this App:
+```bash
+  yarn install
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
-  <a href="https://reactjs.org/"><img src="https://cdn-icons-png.flaticon.com/512/3334/3334886.png" alt="drawing" width="48" height="48"/></a>
-  <a href="https://tailwindcss.com/"><img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="48" height="48"/></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" width="48" height="48"/></a>
-</div>
+```
 
-### Other Libs & Packages:
+3. Run the App
 
-- [**Preline UI**](https://preline.co/docs/index.html)
-- [**Raact Router**](https://reactrouter.com/)
+```bash
+  yarn run dev
 
----
+```
 
-# Website Screenshot
+## 🖥️ Usage
+
+1. You can download any youtube thumbnail that you like with easy way.
+2. You just copy the video url an paste in the website.
+3. You can get the highst picture quality.
+
+## 👀 Demo
+
+[Youtube Thumbnail Downloader](https://y-t-downloader.vercel.app/)
+
+## 🖼️ Application's Screeshots
 
 ![YT Downloader](https://github.com/ahmedmohmd/ytl-downloader/blob/main/app-screenshot.png?raw=true) 
